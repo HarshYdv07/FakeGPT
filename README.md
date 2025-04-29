@@ -1,6 +1,6 @@
 # FakeGPT
-FakeGPT is a stylish desktop chatbot powered by Google Gemini 1.5 Pro, built using Python and PyQt5. It features a modern black-grey UI, voice input, AI-generated responses, and smart chat history handling.
-✨ Features
+#FakeGPT is a stylish desktop chatbot powered by Google Gemini 1.5 Pro, built using Python and PyQt5. It features a modern black-grey UI, voice input, AI-generated responses, and smart chat history handling.
+#✨ Features
 	•	🎙️ Voice Input – Speak your questions with one click.
 	•	💬 Text Chat – Type queries and get Gemini-powered responses.
 	•	🔊 Text-to-Speech – Speaks only the responses to spoken queries.
