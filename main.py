@@ -58,7 +58,7 @@ class TypingThread(QThread):
 class ChatApp(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("FakeGPT")
+        self.setWindowTitle("Saturday")
         self.setGeometry(200, 100, 1000, 700)
         self.setStyleSheet("background-color: #121212; color: white;")
 
@@ -233,8 +233,12 @@ class ChatApp(QWidget):
         self.current_session = []
         self.chat_display.clear()
         self.input_field.clear()
-        self.save_history()
 
+        # Show styled welcome message
+        styled_welcome = '<p align="center" style="color: #BDBFC0; font-size: 40px; font-weight: bold; margin-top: 40px;">How can I help you today?</p>'
+        self.chat_display.append(styled_welcome)
+
+        self.save_history()
     def save_history(self):
         all_sessions = self.chat_sessions.copy()
         if self.current_session:
